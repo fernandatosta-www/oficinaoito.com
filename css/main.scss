@@ -109,8 +109,15 @@ a {
 
   .home-social-icons {
     text-align: center;
-    .home-address {
-      margin-bottom: 8px;
+  }
+
+  .home-address {
+    margin-top: 18px;
+    text-align: center;
+
+    font-size:  12px;
+    @include media-query(DESKTOP) {
+      font-size:  14px;
     }
   }
 }
