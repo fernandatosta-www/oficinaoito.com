@@ -5,6 +5,18 @@
     {% include meta.html %}
   </head>
   <body>
-    <div class="main-div"></div>
+    <div class="main-div home-background">
+      <div class="home-container">
+        <div class="home-logo"></div>
+        <div class="home-text">{{ content }}</div>
+        <div class="home-social-icons">
+          <div class="home-address">
+            R. Conselheiro Brotero, 220<br>
+            Barra Funda, São Paulo - SP, 01154-001
+          </div>
+          {% include social-icons.html %}
+        </div>
+      </div>
+    </div>
   </body>
 </html>
