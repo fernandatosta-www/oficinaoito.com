@@ -1,0 +1,18 @@
+$BACKGROUND: #ddd;
+
+$TEXT-FONT: 'Open Sans', sans-serif;
+$TEXT-COLOR: rgba(0,0,0,1);
+$TEXT-SIZE: 1rem;
+
+$LINK-COLOR: $TEXT-COLOR;
+$LINK-COLOR-VISITED: $LINK-COLOR;
+$LINK-COLOR-HOVER: lighten($LINK-COLOR, 45%);
+
+
+$TRANSITION-PERIOD: 0.1s;
+
+@mixin media-query($canvas) {
+  @if $canvas == DESKTOP {
+   @media only screen and (min-width: 640px) { @content; }
+  }
+}
