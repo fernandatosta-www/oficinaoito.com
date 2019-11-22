@@ -15,7 +15,7 @@ future: false
 # Data
 social:
   instagram: "https://www.instagram.com/oficinaoito"
-  facebook: "https://www.facebook.com/oficinaoito"
+  facebook: ""
   twitter: ""
   flickr: ""
   github: ""
@@ -25,7 +25,9 @@ social:
   tumblr: ""
   pinterest: ""
   envelope-o: "mailto:oi@oficinaoito.com"
-twitter_user: "OficinaOito"
+  tools: ""
+  wrench: "https://fernandatosta.com"
+twitter_user: ""
 
 # prose.io
 prose:
